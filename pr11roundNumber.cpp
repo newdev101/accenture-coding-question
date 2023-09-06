@@ -33,8 +33,9 @@ int squre(int n){
 void go(int n)
 {
     unordered_set<int>unset;
-    while(n!=1 && unset.find(n)!=unset.end()){
+    while(n!=1 && unset.find(n)==unset.end()){
         n = squre(n);
+        unset.insert(n);
     }
     if(n==1)cout<<"good"<<endl;
     else cout<<"not good"<<endl;

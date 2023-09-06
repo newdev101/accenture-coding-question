@@ -1,4 +1,6 @@
 /*
+    url:https://youtu.be/qSA3CO1Hhgo
+    
     Given a number as input print the total count of numbers which have at least one '3' as digit in their 
     decimal representation
 */
