@@ -13,7 +13,8 @@ void solve(int a, int b, int c, int d){
     int temp;
     if(a==b || a==c || a==d)temp=a;
     else if(b==c || b==d) temp = b;
-    else temp = c;
+    else if(c == d) temp = c;
+    else temp = 0;
 
     temp = (a+b+c+d)-3*temp;
     cout<<temp;

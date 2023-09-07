@@ -20,6 +20,8 @@ bool go(vector<vector<int>>vec, int n)
    unordered_set<int>col;
 
    for(int i=0; i<n; i++){
+    row.clear();
+    col.clear();
     for(int j=0; j<n;j++){
         row.insert(vec[i][j]);
         col.insert(vec[j][i]);
