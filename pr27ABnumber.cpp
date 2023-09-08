@@ -11,7 +11,7 @@ void go()
  string str;
  cin>>str;
 
- int a=1,b=2,c=3,d=4,e=5;
+ 
  int num=0;
  int pos=0;
  for(int i=str.length()-1; i>=0; i--){
